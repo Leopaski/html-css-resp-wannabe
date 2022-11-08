@@ -46,9 +46,11 @@ img {
  ************************************************/
 
 /* LAYOUT */
-@media screen and (min-width:480px){
-    #col {
-        display: block;        
+@media screen and (max-width:480px){
+    .card {
+        display: block; 
+        width: 470px;   
+        flex-direction: column;    
     }
     
 }
@@ -93,6 +95,7 @@ img {
 }
 
 /* STEPS SECTION */
+
 .steps {
     margin: 3rem 0;
     padding: 3rem 0;
@@ -115,6 +118,11 @@ img {
 }
 
 /* WHY US SECTION */
+@media screen and (max-width:480px) {
+    .why-us{
+        background-color: rgb(27, 27, 27);
+    }
+}
 .why-us {
     margin-bottom: 3rem;
 }
