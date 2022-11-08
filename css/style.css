@@ -46,14 +46,6 @@ img {
  ************************************************/
 
 /* LAYOUT */
-@media screen and (max-width:480px){
-    .card {
-        display: block; 
-        width: 470px;   
-        flex-direction: column;    
-    }
-    
-}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -118,11 +110,7 @@ img {
 }
 
 /* WHY US SECTION */
-@media screen and (max-width:480px) {
-    .why-us{
-        background-color: rgb(27, 27, 27);
-    }
-}
+
 .why-us {
     margin-bottom: 3rem;
 }
@@ -142,3 +130,15 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ @media screen and (max-width:480px) {
+    .why-us{
+        background-color: rgb(27, 27, 27);
+    }
+}
+@media screen and (max-width:480px) {
+    .lessons .col{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
