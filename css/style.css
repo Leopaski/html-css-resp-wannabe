@@ -136,9 +136,42 @@ img {
     }
 }
 @media screen and (max-width:480px) {
-    .lessons .col{
+    .lessons .col {
         display: block;
         flex-wrap: wrap;
-        width: 100%;
+        width: fit-content;
+        display: flex;
     }
 }
+@media screen and (max-width:480px) {
+    .row {
+        flex-wrap:wrap
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .steps {
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        background-size: cover;
+        width: fit-content;
+    }
+}
+@media screen and (max-width:480px) {
+    .why-us {
+        display: block;
+        flex-wrap: wrap;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:480px) {
+    .site-header {
+        text-align: center;
+        width:1000px;
+    }
+}
+
